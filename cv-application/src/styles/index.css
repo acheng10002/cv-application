@@ -1,0 +1,203 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 30px 0 60px 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+    border: solid 1px darkgray;
+  }
+}
+
+.section {
+  display: flex;
+  width: 100vw;
+}
+
+.gen-info {
+  min-height: 328px;
+  max-height: 328px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  min-width: 527px;
+  max-width: 600px;
+  border: 1px solid lightgray;
+  padding: 0 70px 0 25px;
+}
+
+.gen-form {
+  justify-content: flex-start;
+  padding-bottom: 0px;
+}
+
+.section-heading {
+  align-self: flex-end;
+  margin: 15px 125px 10px 0;
+  max-width: 270px;
+}
+
+.ed-pract-heading {
+  margin-right: 110px;
+}
+
+label {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+input {
+  display: block;
+  min-width: 380px;
+  height: 28px;
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+button {
+  align-self: center;
+  margin-top: 20px;
+}
+
+.gen-submit {
+  margin-bottom: 0;
+  margin-left: 75px;
+}
+
+.ed-pract-submit {
+  margin-top: 5px;
+  margin-left: 95px;
+}
+
+.ed-pract-add {
+  margin-top: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-width: 350px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+
+.ed-buttons {
+  margin-bottom: 30px;
+}
+
+.section-rendering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-right: 60px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.gen {
+  margin-top: 120px;
+  margin-right: 160px;
+}
+
+.ed-pract {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 125px;
+  text-align: left;
+  line-height: normal;
+}
+
+textarea {
+  min-width: 380px;
+  max-width: 380px;
+  margin: 0 0 15px 22px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+pre {
+  line-height: normal;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.pract-experience {
+  margin-bottom: 200px;
+}
