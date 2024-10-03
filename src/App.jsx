@@ -1,9 +1,8 @@
-import { useState } from "react";
 import GeneralInfoSection from "./components/GeneralInfoSection.jsx";
 import EdPractInfoSection from "./components/EdPractInfoSection.jsx";
 import "./styles/App.css";
 
-function CVApp() {
+export default function App() {
   return (
     <>
       <h1>CV Generator</h1>
@@ -35,5 +34,3 @@ function CVApp() {
     </>
   );
 }
-
-export { CVApp };
