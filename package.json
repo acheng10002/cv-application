@@ -12,6 +12,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
